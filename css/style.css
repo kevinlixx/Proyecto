@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    
+    background-image: url("/img/fondo3.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
+header {
+    padding: 5px 0px;
+    
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background-color: rgb(0, 0, 0);
+    filter:alpha(opacity=80);
+    -moz-opacity:.80;opacity:.80;
+    width: 100%;
+    
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .logo {
+    width: 99px;
+}
+header .container form {
+    width: 30%;
+    padding: 10px 15px;
+}
+header .container form div input{
+    width: 130%;
+    padding: 10px 15px;
+}
+
+header .container a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 15px;
+    font-size: 20px;
+
+}
+header nav ul li {
+    display: inline-block; /* volver horizontal la lista */
+}
+.container {
+    width: 1140px;
+    margin: 0px auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+main{
+    padding: 40px;
+}
+.sitio-producto{
+    padding: 30px;
+    padding-left: 200px;
+    justify-content: center;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
