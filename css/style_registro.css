@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    
+    background: linear-gradient(90deg,#ffffff 0%, #d8dada 90%);
+    
+   /*  background-image: url(ims/fondo.jpeg);
+   
+    background-repeat:  no-repeat;
+    color: rgb(11, 121, 121); */
+}
+header {
+    padding: 5px 0px;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    background-color: rgb(0, 0, 0);
+    filter:alpha(opacity=95);
+    -moz-opacity:.95;opacity:.95;
+    width: 100%;
+    
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .logo {
+    width: 99px;
+}
+header .container form {
+    width: 30%;
+    padding: 10px 15px;
+}
+header .container form div input{
+    width: 130%;
+    padding: 10px 15px;
+}
+
+header .container a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 15px;
+    font-size: 20px;
+    transition: all .3s ease-in;
+}
+header .container a:hover {
+    color: rgb(39, 119, 139); 
+}
+header nav ul li {
+    display: inline-block; /* volver horizontal la lista */
+}
+.container {
+    width: 1140px;
+    margin: 0px auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container-usuario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.container-form{
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 10px;
+    
+}
+.message{
+    
+    align-items: center;
+    text-align: center;
+    position: flex;
+    color: #45bdbd;
+    padding: 190px 130px;
+}
+
+.message h2{
+    font-size: 1.7rem;
+    padding: 1rem 0;
+}
+
+.create-account{
+    padding: 2.7rem 0;
+    font-size: 1.7rem;
+    color: rgb(39, 119, 139);
+}
+.message button {
+    padding: 1rem;
+    font-weight: 400;
+    background-color: rgb(39, 119, 139); 
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: #fff;
+}
+
+.message button:hover {
+    background-color: rgb(152, 153, 153);
+}
+
+.formulario {
+    width: 400px;
+    height: 550px;
+    padding:1rem, 3px;
+    margin: 2rem;
+    background-color: rgb(13, 14, 13);
+    border-radius: 3%;
+    filter:alpha(opacity=95);
+    -moz-opacity:.95;opacity:.95;
+    text-align: center;
+}
+
+.iconos {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.border-icon {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: solid thin rgb(39, 119, 139);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all .3s ease-in;
+    background-color: #9a9a9c;
+    cursor: pointer;
+}
+.border-icon:hover { /* interacion con los iconos */
+    background-color: rgb(39, 119, 139);
+    cursor: pointer;
+    
+}
+
+.cuenta_gratis {
+    padding: 2rem 0;
+}
+
+.formulario input {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: rgb(255, 255, 255) thin solid;
+    text-align: center;
+    outline: none;
+    padding: .2rem 0;
+    font-size: .9rem;
+    color: rgb(175, 175, 175);
+}
+
+.formulario input[type="button"] {
+    width: 60%;
+    margin: auto;
+    border: solid thin rgb(39, 119, 139);
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: rgb(197, 202, 204);
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    color: rgb(20, 19, 19);
+}
+.formulario input:hover[type="button"] { 
+    background-color: rgb(39, 119, 139);
+    cursor: pointer;
+}
+.sign-in{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.sign-in.active{
+    opacity: 1;
+    visibility: visible;
+}
+.sign-up.active {
+    opacity: 0;
+    visibility: hidden;
+}

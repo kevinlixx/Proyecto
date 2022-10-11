@@ -1,24 +1,22 @@
-* {
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 body {
     
-    background-image: url("../img/fondo3.jpg");
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+   background: linear-gradient(90deg,#ffffff 0%, #d8dada 90%);
     
   }
-header {
+  header {
     padding: 5px 0px;
-    
     top: 0px;
     left: 0px;
-    z-index: 2;
+    z-index: 3;
     background-color: rgb(0, 0, 0);
-    filter:alpha(opacity=80);
-    -moz-opacity:.80;opacity:.80;
+    filter:alpha(opacity=95);
+    -moz-opacity:.95;opacity:.95;
     width: 100%;
     
 }
@@ -38,13 +36,15 @@ header .container form div input{
     width: 130%;
     padding: 10px 15px;
 }
-
 header .container a {
     color: white;
     text-decoration: none;
     margin: 0px 15px;
     font-size: 20px;
-
+    transition: all .3s ease-in;
+}
+header .container a:hover {
+    color: rgb(39, 119, 139); 
 }
 header nav ul li {
     display: inline-block; /* volver horizontal la lista */
@@ -59,7 +59,7 @@ main{
     padding: 40px;
 }
 .sitio-producto{
-    padding: 30px;
+    padding: 30px 10px;
     padding-left: 200px;
     justify-content: center;
     max-width: 1080px;
