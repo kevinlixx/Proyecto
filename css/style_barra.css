@@ -5,12 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 body {
-    background: rgb(231, 230, 230);
+    background: rgb(231, 230, 230); 
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
-  /*  background: linear-gradient(90deg,#ffffff 0%, #d8dada 90%); */
-    
   }
   header {
     padding: 5px 0px;
@@ -58,17 +56,7 @@ header nav ul li {
     padding-right: 15px;
     padding-left: 15px;
 }
-main{
-    padding: 40px;
-}
-.sitio-producto{
-    padding: 30px 10px;
-    padding-left: 200px;
-    justify-content: center;
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 
 

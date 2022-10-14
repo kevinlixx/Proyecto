@@ -79,7 +79,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 20px;
 }
 .container-form{
     height: 90vh;
@@ -126,15 +126,14 @@ main{
 }
 
 .formulario {
-    width: 600px;
-    height: 900px;
-    padding: 1rem, 3px;
-    margin: auto;
+    width: 400px;
+    height: 550px;
+    padding:1rem, 3px;
+    margin: 2rem;
     background-color: rgb(13, 14, 13);
     border-radius: 3%;
-    filter: alpha(opacity=95);
-    -moz-opacity: .95;
-    opacity: .95;
+    filter:alpha(opacity=95);
+    -moz-opacity:.95;opacity:.95;
     text-align: center;
 }
 
