@@ -67,7 +67,7 @@ header nav ul li {
     padding-left: 15px;
 }
 main{
-    height: 100vh;
+    height: 130vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,14 +79,17 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 90px;
+    margin-top: -140px;
 }
 .container-form{
-    height: 90vh;
-    display: flex;
+    height: 98vh;
+    /* display: flex; */
     justify-content: space-around;
     padding: 40px 10px;
     
+}
+.bienvenido{
+    display: flex;
 }
 .message{
     
@@ -127,7 +130,7 @@ main{
 
 .formulario {
     width: 600px;
-    height: 900px;
+    height: 1050px;
     padding: 1rem, 3px;
     margin: auto;
     background-color: rgb(13, 14, 13);
@@ -173,17 +176,36 @@ main{
     width: 70%;
     display: block;
     margin: auto;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: rgb(255, 255, 255) thin solid;
+    outline: none;
+    padding: 0.5rem 0;
+    padding-top: 0.6rem;
+    font-size: .9rem;
+    color: rgb(175, 175, 175);
+}
+.formulario select{
+    width: 70%;
+    display: block;
+    margin: auto;
     margin-bottom: 2rem;
     background-color: transparent;
     border: none;
     border-bottom: rgb(255, 255, 255) thin solid;
-    text-align: center;
     outline: none;
-    padding: .2rem 0;
+    padding: 0.5rem 0;
+    padding-top: 0.6rem;
     font-size: .9rem;
     color: rgb(175, 175, 175);
 }
-
+.formulario p
+{
+    padding-left: 90px;
+    color: gray;
+    text-align: left;
+}
 .formulario input[type="button"] {
     width: 60%;
     margin: auto;
@@ -204,9 +226,7 @@ main{
     cursor: pointer;
 }
 .formulario a{ 
-    
     color:rgb(197, 202, 204);
-    
     transition: 300ms;
 }
 .formulario a:hover{ 

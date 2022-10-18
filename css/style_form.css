@@ -79,7 +79,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 90px;
 }
 .container-form{
     height: 90vh;
@@ -88,7 +88,6 @@ main{
     padding: 40px 10px;
     
 }
-
 .message{
     
     align-items: center;
@@ -127,14 +126,15 @@ main{
 }
 
 .formulario {
-    width: 400px;
-    height: 550px;
-    padding:1rem, 3px;
-    margin: 2rem;
+    width: 600px;
+    height: 850px;
+    padding: 1rem, 3px;
+    margin: auto;
     background-color: rgb(13, 14, 13);
     border-radius: 3%;
-    filter:alpha(opacity=95);
-    -moz-opacity:.95;opacity:.95;
+    filter: alpha(opacity=95);
+    -moz-opacity: .95;
+    opacity: .95;
     text-align: center;
 }
 
@@ -177,14 +177,49 @@ main{
     background-color: transparent;
     border: none;
     border-bottom: rgb(255, 255, 255) thin solid;
-    text-align: center;
     outline: none;
-    padding: 0.7rem 0;
+    padding: .2rem 0;
+    font-size: .9rem;
+    color: rgb(175, 175, 175);
+}
+.formulario select{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: rgb(255, 255, 255) thin solid;
+    outline: none;
+    padding: 0.5rem 0;
     padding-top: 0.6rem;
     font-size: .9rem;
     color: rgb(175, 175, 175);
 }
+.formulario h2{
+    color: rgb(175, 175, 175);
+}
+.formulario p
+{
+    padding-left: 90px;
 
+    color: gray;
+    text-align: left;
+}
+.formulario button{
+    width: 60%;
+    margin: auto;
+    border: solid thin rgb(39, 119, 139);
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: rgb(197, 202, 204);
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: .8rem;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    color: rgb(20, 19, 19);
+}
 .formulario input[type="button"] {
     width: 60%;
     margin: auto;
@@ -205,9 +240,7 @@ main{
     cursor: pointer;
 }
 .formulario a{ 
-    
     color:rgb(197, 202, 204);
-    
     transition: 300ms;
 }
 .formulario a:hover{ 

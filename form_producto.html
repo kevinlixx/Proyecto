@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style_registro.css">
+    <link rel="stylesheet" href="./css/style_form.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
      src="https://kit.fontawesome.com/106a541cd5.js"
      crossorigin="anonymous"
    ></script>
-    <title>Registrarse</title>
+    <title>Registo productos</title>
     <link rel="shortcut icon" href="./img/icono.png">
 </head>
 <body>
@@ -30,17 +30,17 @@
             <nav>
                 <ul>
                     <li>
-                    <a href="./index.html">Inicio</a>
-                </li>
+                        <a href="./index_admin.html">Inicio</a>
+                    </li>
+                        <li>
+                        <a href="./categorias_formularios.html">Formularios</a>
+                    </li>
+                        <!-- <li>
+                        <a href="#crear_cuenta">Crear cuenta</a>
+                    </li> -->
                     <li>
-                    <a href="./categorias.html">Productos</a>
-                </li>
-                    <!-- <li>
-                    <a href="#crear_cuenta">Crear cuenta</a>
-                </li> -->
-                <li>
-                    <a href="./iniciarSesion.html">Iniciar sesion</a>
-                </li>
+                        <a href="./index.html">Cerrar sesion</a>
+                    </li>
                     
             </ul>
             </nav>
@@ -48,50 +48,35 @@
     </header>
     <main>
         <div class="container-usuario">
-        <div class="container-form sign-up">
         <form class="formulario">
-            <h2 class="create-account">Registrarse</h2>
-            <div class="iconos">
-                <div class="border-icon">
-                    <i class="bx bxl-instagram"></i>
-                </div>
-                <div class="border-icon">
-                    <i class="bx bxl-google"></i>
-                </div>
-                <div class="border-icon">
-                    <i class="bx bxl-facebook-circle"></i>
-                </div>
-            </div>
+            <h2 class="create-account">Ingresar productos</h2>
              <br>
              <br>
-             <p>Nombre</p>
+             <p>Nombre del producto</p>
              <input type="text" placeholder="" class="txt_nombre" required>
-             <p>Apellido</p>
+             <p>Descripcion del producto</p>
              <input type="text" placeholder="" class="txt_apellido"required>
-             <p>Fecha de nacimiento</p>
-             <input type="date" placeholder="" class="txtfecha_nacimiento" required>
-             <p>tipo de identificación</p>
+             <p>tipo de producto</p>
                 <select name="tipoidentificacion" class="form-control" id="tipoidentificacion">
-                             <option value="Cedula_ciudadania">Cedula ciudadania</option>
-                             <option value="Cedula_extranjeria">Cedula_extranjeria </option>
+                             <option value="alimento">Alimento</option>
+                             <option value=ropa">Ropa </option>
+                             <option value="juguete">Juguete</option>   
                              <option value="Otro">Otro</option>   
                 </select>
-            <P>numero de identificación</P>
-            <input type="number" name="" class="num_identificacion">
-            <p>telefono</p>
-            <input type="number" name="" id="" placeholder="ingrese su numero de telefono">
-            <p>correo electronico</p>
+             <p>Fecha de caducidad</p>
+             <input type="date" placeholder="" class="txtfecha_nacimiento" required>
+             <p>peso del producto (gramos)</p>
             <input type="email" placeholder="" class]="txt_email" required>
-            <p>confirmar correo</p>
+            <p>cantidad de producto</p>
             <input type="email" class="txtconfir_email">
-            <p>contraseña</p>
+            <p>marca del producto</p>
             <input type="password" placeholder="" class="txt_contraseña" required>
-            <p>confirmar contraseña</p>
+            <p>Precio unitario</p>
             <input type="password" placeholder="" class="txt_contraseña" required>
             <input type="button" value="Continuar" class="button_registro" required> 
+            
         </form>
     </div>
-</div>
 </div>
 </main>
 <footer class="pie-pagina">

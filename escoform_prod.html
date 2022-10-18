@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style_iniciar.css">
+    <link rel="stylesheet" href="./css/ecoform.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -30,17 +30,17 @@
             <nav>
                 <ul>
                     <li>
-                    <a href="./index.html">Inicio</a>
-                </li>
+                        <a href="./index_admin.html">Inicio</a>
+                    </li>
+                        <li>
+                        <a href="./categorias_formularios.html">Formularios</a>
+                    </li>
+                        <!-- <li>
+                        <a href="#crear_cuenta">Crear cuenta</a>
+                    </li> -->
                     <li>
-                    <a href="./categorias.html">Productos</a>
-                </li>
-                    <!-- <li>
-                    <a href="#crear_cuenta">Crear cuenta</a>
-                </li> -->
-                <li>
-                    <a href="./iniciarSesion.html">Iniciar sesion</a>
-                </li>
+                        <a href="./index.html">Cerrar sesion</a>
+                    </li>
                     
             </ul>
             </nav>
@@ -51,39 +51,34 @@
     <div class="container-form sign-up">
         <div class="bienvenido">
             <div class="message">
-                <h2>¡Bienvenido administrador!</h2>
+                <h2>Formularios para productos</h2>
+                <p>Que deseas hacer?</p>
+
+    <div class="caja-botones">
+                <div class="boton">
+                    <a href="./form_producto.html">
+                <button class="sign-up-btn">Añadir productos</button>
+            </a>
+            </div class="boton">
+            <div>
+                <a href="./form_consultarProducto.html">
+            <button class="sign-up-btn">Consultar Productos</button>
+        </a>
+        </div>
+        <div class="boton">
+            <a href="./form_eliminarProducto.html">
+        <button class="sign-up-btn">Eliminar productos</button>
+    </a>
+    </div>
+</div>
             <figure>
                 <img src="./img/registro.png" alt="">
             </figure>
             </div>
             
         </div>
-        <form class="formulario">
-            <h2 class="create-account">Iniciar sesion</h2>
-            <div class="iconos">
-                <div class="border-icon">
-                    <i class="bx bxl-instagram"></i>
-                </div>
-                <div class="border-icon">
-                    <i class="bx bxl-google"></i>
-                </div>
-                <div class="border-icon">
-                    <i class="bx bxl-facebook-circle"></i>
-                </div>
-            </div>
-             <br>
-             <br>
-            
-            <input type="email" placeholder="email">
-            <input type="password" placeholder="Contraseña">
-            <a href="./index_admin.html">
-                <input type="button" value="Continuar">
-            </a>
-            <br>
-            
-        </form>
     </div>
-    </div>
+   
 </div>
 </main>
 <footer class="pie-pagina">
